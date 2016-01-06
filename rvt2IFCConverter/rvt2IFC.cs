@@ -149,7 +149,7 @@ namespace rvt2IFCConverter
             Process[] processes;
             try
             {
-                string[] journals = new string[] { "rvt2ifc.txt"};
+                string[] journals = new string[] { "rvt2ifc.txt", "rvt2ifcNoPopUp.txt"};
 
                 processes = Process.GetProcessesByName("Revit");
                 for (var i = 0; i < processes.Length; i++)
