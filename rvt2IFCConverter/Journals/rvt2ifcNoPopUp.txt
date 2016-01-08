@@ -17,7 +17,7 @@ Set Jrn = CrsJournalScript
 ' 0:< ::0:: Delta VM: Avail -688 -> 134216593 MB, Used +97 -> 160 MB, Peak +89 -> 160 MB; RAM: Avail -108 -> 2477 MB, Used +124 -> 233 MB, Peak +124 -> 233 MB 
 ' 0:< Autodesk Revit 2015 
 ' 0:< 64-bit load point = C:\Program Files\Autodesk\Revit 2015 
-' 0:< this journal = C:\Users\ProcLauncher\AppData\Local\Autodesk\Revit\Autodesk Revit 2015\Journals\journal.0009.txt 
+' 0:< this journal = C:\ProgramData\Autodesk\Revit\Autodesk Revit 2015\Journals\journal.0009.txt 
 ' 0:< ::0:: Delta VM: Avail -55 -> 134216538 MB, Used +7 -> 167 MB, Peak +40 -> 200 MB; RAM: Avail -22 -> 2455 MB, Used +20 -> 253 MB, Peak +25 -> 259 MB 
 ' 0:< Journal Init 
 ' 0:< Log Summary 
@@ -369,7 +369,7 @@ Jrn.Directive "IdleTimeTaskSymbol"  _
  ' 0:< ::4:: Delta VM: Avail -28 -> 134216215 MB, Used +8 -> 227 MB, Peak +6 -> 229 MB; RAM: Avail -4 -> 2343 MB, Used +13 -> 368 MB, Peak +14 -> 369 MB 
  'H 06-Jan-2016 09:32:45.381;   0:< 
  Jrn.Data "File Name"  _
-         , "IDOK", "C:\Users\ProcLauncher\AppData\Local\rvt2ifc\in.rvt"
+         , "IDOK", "C:\ProgramData\rvt2ifc\in.rvt"
  'H 06-Jan-2016 09:32:45.381;   0:< 
  Jrn.Data "WorksetConfig"  _
          , "Custom", 0
@@ -377,7 +377,7 @@ Jrn.Directive "IdleTimeTaskSymbol"  _
  ' 1:< RAM Statistics:     2344 /     4095       368=InUse      369=Peak  
  ' 1:< VM  Statistics: 134216215 / 134217727       227=InUse      229=Peak  
  ' 2:< File: Open 
- ' 3:< Connecting session [$12871110] to Worksharing Log [C:\Users\ProcLauncher\AppData\Local\Autodesk\Revit\Autodesk Revit 2015\Journals\journal.0009.txt] 
+ ' 3:< Connecting session [$12871110] to Worksharing Log [C:\ProgramData\Autodesk\Revit\Autodesk Revit 2015\Journals\journal.0009.txt] 
  '  0.000022      4:<<<WorksharingLog::getSlog [] 
  ' 3:< Additional IP address/name found for host WIN-IUUMB8TI2E8: fe80::a6:1b01:f5ff:fdf0%14  
  ' 3:< Additional IP address/name found for host WIN-IUUMB8TI2E8: 10.0.2.15  
@@ -389,8 +389,8 @@ Jrn.Directive "IdleTimeTaskSymbol"  _
  '  0.000193        6:<<loading DocumentStorageIndex 
   ' 6:< ::4:: Delta VM: Avail -17 -> 134216199 MB, Used +6 -> 234 MB, Peak +5 -> 234 MB; RAM: Avail -5 -> 2339 MB, Used +8 -> 376 MB, Peak +6 -> 376 MB 
   'E 06-Jan-2016 09:32:45.471;   6:< 
-  ' [Jrn.BasicFileInfo] Rvt.Attr.Worksharing: Not enabled Rvt.Attr.UserName:  Rvt.Attr.CentralModelPath:  Rvt.Attr.RevitBuildVersion: Autodesk Revit 2015 (Build: 20140606_1530(x64)) Rvt.Attr.LastSavePath: C:\Users\ProcLauncher\AppData\Local\ifc2rvt\out.rvt Rvt.Attr.ProjectSpark: notProjectSpark Rvt.Attr.LocaleWhenSaved: ENU 
-  ' 7:< [ISL] On open, Adler Checksum: 0x0971ef52 [C:\Users\ProcLauncher\AppData\Local\rvt2ifc\in.rvt] 
+  ' [Jrn.BasicFileInfo] Rvt.Attr.Worksharing: Not enabled Rvt.Attr.UserName:  Rvt.Attr.CentralModelPath:  Rvt.Attr.RevitBuildVersion: Autodesk Revit 2015 (Build: 20140606_1530(x64)) Rvt.Attr.LastSavePath: C:\ProgramData\ifc2rvt\out.rvt Rvt.Attr.ProjectSpark: notProjectSpark Rvt.Attr.LocaleWhenSaved: ENU 
+  ' 7:< [ISL] On open, Adler Checksum: 0x0971ef52 [C:\ProgramData\rvt2ifc\in.rvt] 
   '  0.003693         7:<<<Checking Checksum 
   ' 6:< [ISL] Read last modification time: 05-Jan-2016 17:51:25 (UTC: 05-Jan-2016 17:51:25) 
   '  0.003531         7:<<<app infos and other global data 
@@ -419,7 +419,7 @@ Jrn.Directive "IdleTimeTaskSymbol"  _
   '  0.005064          8:<<<debug check findAppInfoNonexistentParents in dp 
   '  0.087344         7:<<overall delayed deletion from upgrade 
   '  0.002384         7:<<<forceResetOfElemRecOwnerCache 
-  '  0.133653        6:<<ADocumentUpgrade::docUpgrade [C:\Users\ProcLauncher\AppData\Local\rvt2ifc\in.rvt] 
+  '  0.133653        6:<<ADocumentUpgrade::docUpgrade [C:\ProgramData\rvt2ifc\in.rvt] 
   '  0.693831      4:<<loadSerialize 
   '  0.693981     3:<<LoadFromStorage 
   ' 2:< ::5:: Delta VM: Avail -2 -> 134216163 MB, Used +6 -> 261 MB, Peak +6 -> 261 MB; RAM: Avail -12 -> 2301 MB, Used +5 -> 411 MB, Peak +5 -> 411 MB 
@@ -454,7 +454,7 @@ Jrn.Directive "IdleTimeTaskSymbol"  _
   '  0.000239        6:<<<EndOrAbortUndoTransaction() -- trackers regen;DOPT; 
   '  0.000026        6:<<<EndOrAbortUndoTransaction()--AtomViewReferencingUpdate();DOPT; 
   '  0.000002         7:<<<EndOrAbortUndoTransaction()--end of transaction checks--invisible elements;DOPT; 
-  ' 6:< Connecting session [$46f49566] to Worksharing Log [C:\Users\ProcLauncher\AppData\Local\Autodesk\Revit\Autodesk Revit 2015\Journals\journal.0009.txt] 
+  ' 6:< Connecting session [$46f49566] to Worksharing Log [C:\ProgramData\Autodesk\Revit\Autodesk Revit 2015\Journals\journal.0009.txt] 
   '  0.000016         7:<<<WorksharingLog::getSlog [] 
   ' 6:< Additional IP address/name found for host WIN-IUUMB8TI2E8: fe80::a6:1b01:f5ff:fdf0%14  
   ' 6:< Additional IP address/name found for host WIN-IUUMB8TI2E8: 10.0.2.15  
@@ -522,7 +522,7 @@ Jrn.Directive "IdleTimeTaskSymbol"  _
   ' 3:< Document save history <-- 
   '  0.130899     3:<<[Cloud]postLoadDocument 
   ' 1:< ::5:: Delta VM: Avail -7 -> 134216156 MB, Used +6 -> 267 MB, Peak +6 -> 267 MB; RAM: Avail -13 -> 2288 MB, Used +9 -> 420 MB, Peak +9 -> 420 MB 
-  '  0.885489    2:<<FormOrAbandon::openFromModelPath [C:\Users\ProcLauncher\AppData\Local\rvt2ifc\in.rvt] 
+  '  0.885489    2:<<FormOrAbandon::openFromModelPath [C:\ProgramData\rvt2ifc\in.rvt] 
   'H 06-Jan-2016 09:32:46.312;   1:< 
   Jrn.Directive "DocSymbol"  _
           , "[in.rvt]"
@@ -731,7 +731,7 @@ Jrn.Directive "AllowPressAndDrag"  _
  ' 0:< Unnecessary nesting;ArrowUI_4;-1;ID_EXPORT_IFC ;N++EB(NB); 
  'H 06-Jan-2016 09:33:03.028;   0:< 
  Jrn.Data "FileDialog"  _
-         , "IDOK", "C:\Users\ProcLauncher\AppData\Local\rvt2ifc\out.ifc", "ifc" _
+         , "IDOK", "C:\ProgramData\rvt2ifc\out.ifc", "ifc" _
          , "out.ifc", ""
  'H 06-Jan-2016 09:33:03.028;   0:< 
  Jrn.Data "FileType"  _

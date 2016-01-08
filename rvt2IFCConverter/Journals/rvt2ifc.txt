@@ -368,7 +368,7 @@ Jrn.Directive "IdleTimeTaskSymbol"  _
  ' 0:< ::4:: Delta VM: Avail -27 -> 134216180 MB, Used +7 -> 246 MB, Peak +4 -> 247 MB; RAM: Avail -15 -> 1227 MB, Used +16 -> 366 MB, Peak +18 -> 368 MB 
  'H 02-Nov-2015 13:52:41.982;   0:< 
  Jrn.Data "File Name"  _
-         , "IDOK", "C:\Users\ProcLauncher\AppData\Local\rvt2ifc\in.rvt"
+         , "IDOK", "C:\ProgramData\rvt2ifc\in.rvt"
  'H 02-Nov-2015 13:52:41.983;   0:< 
  Jrn.Data "WorksetConfig"  _
          , "Custom", 0
@@ -389,7 +389,7 @@ Jrn.Directive "IdleTimeTaskSymbol"  _
  '  0.000523        6:<<loading DocumentStorageIndex 
   'E 02-Nov-2015 13:52:42.271;   6:< 
   ' [Jrn.BasicFileInfo] Rvt.Attr.Worksharing: Not enabled Rvt.Attr.UserName:  Rvt.Attr.CentralModelPath:  Rvt.Attr.RevitBuildVersion: Autodesk Revit 2015 (Build: 20140606_1530(x64)) Rvt.Attr.LastSavePath: C:\Users\Victor Munoz\Dropbox\ThinkLAB\D4E Project\Models\Project V3.rvt Rvt.Attr.ProjectSpark: notProjectSpark Rvt.Attr.LocaleWhenSaved: ENU 
-  ' 7:< [ISL] On open, Adler Checksum: 0xf99339f9 [C:\Users\ProcLauncher\AppData\Local\rvt2ifc\in.rvt] 
+  ' 7:< [ISL] On open, Adler Checksum: 0xf99339f9 [C:\ProgramData\rvt2ifc\in.rvt] 
   '  0.045318         7:<<<Checking Checksum 
   ' 6:< [ISL] Read last modification time: 02-Nov-2015 13:46:10 (UTC: 02-Nov-2015 13:46:10) 
   ' 6:< ::5:: Delta VM: Avail -7 -> 134216163 MB, Used +6 -> 252 MB, Peak +5 -> 252 MB; RAM: Avail -9 -> 1218 MB, Used +10 -> 377 MB, Peak +9 -> 377 MB 
@@ -426,7 +426,7 @@ Jrn.Directive "IdleTimeTaskSymbol"  _
   '  0.020561          8:<<<findAppInfoNonexistentParents in delayed deletion 
   '  0.112250         7:<<overall delayed deletion from upgrade 
   '  0.001465         7:<<<forceResetOfElemRecOwnerCache 
-  '  0.201453        6:<<ADocumentUpgrade::docUpgrade [C:\Users\ProcLauncher\AppData\Local\rvt2ifc\in.rvt] 
+  '  0.201453        6:<<ADocumentUpgrade::docUpgrade [C:\ProgramData\rvt2ifc\in.rvt] 
   '  1.496765      4:<<loadSerialize 
   '  1.497471     3:<<LoadFromStorage 
   ' 2:< No key-based tree File: RevitKeynotes_GBR.txt - in this Library Location: C:\ProgramData\Autodesk\RVT 2015\Libraries\US Metric\ - file does not exist: C:\ProgramData\Autodesk\RVT 2015\Libraries\US Metric\RevitKeynotes_GBR.txt 
@@ -534,7 +534,7 @@ Jrn.Directive "IdleTimeTaskSymbol"  _
   ' 3:< Document save history <-- 
   '  0.351626     3:<<[Cloud]postLoadDocument 
   ' 1:< ::5:: Delta VM: Avail -11 -> 134216120 MB, Used +6 -> 281 MB, Peak +6 -> 281 MB; RAM: Avail -11 -> 1180 MB, Used +8 -> 411 MB, Peak +4 -> 411 MB 
-  '  1.986056    2:<<FormOrAbandon::openFromModelPath [C:\Users\ProcLauncher\AppData\Local\rvt2ifc\in.rvt] 
+  '  1.986056    2:<<FormOrAbandon::openFromModelPath [C:\ProgramData\rvt2ifc\in.rvt] 
   'H 02-Nov-2015 13:52:44.193;   1:< 
   Jrn.Directive "DocSymbol"  _
           , "[in.rvt]"
@@ -750,7 +750,7 @@ Jrn.Directive "AllowPressAndDrag"  _
  ' 0:< Unnecessary nesting;ArrowUI_4;-1;ID_EXPORT_IFC ;N++EB(NB); 
  'H 02-Nov-2015 13:53:09.119;   0:< 
  Jrn.Data "FileDialog"  _
-         , "IDOK", "C:\Users\ProcLauncher\AppData\Local\rvt2ifc\out.ifc", "ifc" _
+         , "IDOK", "C:\ProgramData\rvt2ifc\out.ifc", "ifc" _
          , "out.ifc", ""
  'H 02-Nov-2015 13:53:09.120;   0:< 
  Jrn.Data "FileType"  _
